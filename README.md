@@ -18,8 +18,8 @@ The pipeline of the vision based pose and velocity estimation is explained below
 4. Compare the pose estimated from the homography approach versus ground truth data obtained from Vicon system on board the nano++ quadrotor
 
 <p float="left">
-  <img src="https://github.com/somikdhar729/Vision_based_Pose_and_Velocity_Estimation_of_Microaerial_Vehicle/blob/main/Pose_estimation_Dataset1.png" width="50%" />
-  <img src="https://github.com/somikdhar729/Vision_based_Pose_and_Velocity_Estimation_of_Microaerial_Vehicle/blob/main/Pose_estimation_Dataset4.png" width="50%" /> 
+  <img src="https://github.com/somikdhar729/Vision_based_Pose_and_Velocity_Estimation_of_Microaerial_Vehicle/blob/main/Pose_estimation_Dataset1.png" width="20%" />
+  <img src="https://github.com/somikdhar729/Vision_based_Pose_and_Velocity_Estimation_of_Microaerial_Vehicle/blob/main/Pose_estimation_Dataset4.png" width="20%" /> 
  
 </p>
 <!-- ![alt text](https://github.com/somikdhar729/Vision_based_Pose_and_Velocity_Estimation_of_Microaerial_Vehicle/blob/main/Pose_estimation_Dataset1.png?raw=true)
