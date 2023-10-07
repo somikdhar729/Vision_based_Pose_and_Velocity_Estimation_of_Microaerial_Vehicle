@@ -50,7 +50,8 @@ The pipeline of the vision-based pose and velocity estimation is explained below
 </p>
 The filtered velocity estimates are shown for both datasets (left to right respectively).
 
- <center> ### Comments on the obtained results
+ <center> 
+<b> Comments on the obtained results </b>
   • For both datasets, the results improved after running the RANSAC algorithm. <be>
   • For both datasets, I have applied the Butterworth filter of order 3 for the linear velocities and Savitzky-Golay
   filter of order 3 for the angular velocities. <br>
