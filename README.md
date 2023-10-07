@@ -37,3 +37,10 @@ Two captured datasets are shown in the left(dataset 1) and right images(dataset 
   <img src="https://github.com/somikdhar729/Vision_based_Pose_and_Velocity_Estimation_of_Microaerial_Vehicle/blob/main/Opticalflow_dataset4.png" width="40%" /> 
  
 </p>
+
+8. Applying RANSAC to reject outliers and better refine the velocity estimates.
+<p float="left">
+  <img src="https://github.com/somikdhar729/Vision_based_Pose_and_Velocity_Estimation_of_Microaerial_Vehicle/blob/main/Opticalflow_dataset1_ransac.png" width="40%" />
+  <img src="https://github.com/somikdhar729/Vision_based_Pose_and_Velocity_Estimation_of_Microaerial_Vehicle/blob/main/Opticalflow_dataset4_ransac.png" width="40%" /> 
+ 
+</p>
