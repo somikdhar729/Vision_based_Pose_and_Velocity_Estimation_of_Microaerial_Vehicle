@@ -7,3 +7,5 @@ This is a vision based pose and velocity estimation of microaerial vehicle. Give
 The pipeline of the vision based pose and velocity estimation is explained below.
 
 1. Formulate the correspondencies between the image plane and planar distribution of april tags
+![alt text](https://github.com/somikdhar729/Vision_based_Pose_and_Velocity_Estimation_of_Microaerial_Vehicle/blob/main/april_tags.png?raw=true)
+
