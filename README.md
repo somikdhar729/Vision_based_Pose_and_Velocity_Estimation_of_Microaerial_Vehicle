@@ -24,9 +24,9 @@ The pipeline of the vision-based pose and velocity estimation is explained below
 </p>
   Two captured datasets are shown in the left(dataset 1) and right images(dataset 4) respectively.
   
-### Comments on the obtained results for the three datasets
-• For the two datasets, position, orientation and velocity from the raw data and estimated states represent the
-uncertainty bounds reflecting errors in the estimates.
+  ### Comments on the obtained results for the three datasets
+  • For the two datasets, position, orientation and velocity from the raw data and estimated states represent the
+  uncertainty bounds reflecting errors in the estimates.
 5. Use the DetectFastFeatures function in MATLAB to detect the pixel location of the features in the camera frames.
 
 
@@ -50,19 +50,19 @@ uncertainty bounds reflecting errors in the estimates.
 </p>
 The filtered velocity estimates are shown for both datasets (left to right respectively).
 
-### Comments on the obtained results
-• For both the datasets, the results improved after running the RANSAC algorithm.
-• For both the datasets, I have applied butterworth filter of order 3 for the linear velocites and Savitzky-Golay
-filter of order 3 for the angular velocities.
-• Since the velocities are estimated based on the optical flow at these sparse points, there may be regions of the
-image where the flow is not accurately captured, leading to inaccuracies in the estimated velocities.
-• While RANSAC-based outlier rejection is an effective method for removing outliers in the optical flow, it may
-also remove valid data points that have been misclassified as outliers. This can result in the loss of information
-and the generation of inaccurate velocity estimates.
-• The accuracy of the velocity estimation is highly dependent on the accuracy of feature tracking. If the feature
-tracking algorithm is not robust enough to handle changes in illumination, texture, or appearance, then the
-resulting optical flow may be inaccurate and lead to inaccurate velocity estimates.
-• The accuracy of the optical flow and velocity estimation is also dependent on the spatial resolution of the
-image. If the image is undersampled, then the optical flow computation may be inaccurate, and the resulting
-velocity estimates may be inaccurate.
+ <center> ### Comments on the obtained results
+  • For both datasets, the results improved after running the RANSAC algorithm. <be>
+  • For both datasets, I have applied the Butterworth filter of order 3 for the linear velocities and Savitzky-Golay
+  filter of order 3 for the angular velocities. <br>
+  • Since the velocities are estimated based on the optical flow at these sparse points, there may be regions of the
+  image where the flow is not accurately captured, leading to inaccuracies in the estimated velocities. <br>
+  • While RANSAC-based outlier rejection is an effective method for removing outliers in the optical flow, it may
+  also remove valid data points that have been misclassified as outliers. This can result in the loss of information
+  and the generation of inaccurate velocity estimates. <br>
+  • The accuracy of the velocity estimation is highly dependent on the accuracy of feature tracking. If the feature
+  tracking algorithm is not robust enough to handle changes in illumination, texture, or appearance, then the
+  resulting optical flow may be inaccurate and lead to inaccurate velocity estimates. <br>
+  • The accuracy of the optical flow and velocity estimation is also dependent on the spatial resolution of the
+  image. If the image is undersampled, then the optical flow computation may be inaccurate, and the resulting
+  velocity estimates may be inaccurate. </center>
 
